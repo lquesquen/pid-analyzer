@@ -1,0 +1,27 @@
+# Crear C:\Users\luisq\Documents\Beta\pid-analyzer\pid-analyzer\.gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.pem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.docker/
+
+# MongoDB
+data/
