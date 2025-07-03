@@ -20,6 +20,8 @@ services:
       - ./backend:/app
     environment:
       - MONGODB_URL=mongodb://admin:password@mongodb:27017/
+      - PYTHONPATH=/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
     depends_on:
       - mongodb
 
@@ -29,6 +31,10 @@ services:
       - "3000:3000"
     volumes:
       - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true
     depends_on:
       - backend
 

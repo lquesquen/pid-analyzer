@@ -1,0 +1,167 @@
+{
+    "metadata": {
+      "base_path": "./SymbolLibrary/Instruments",
+      "version": "1.0",
+      "last_updated": "2024-02-17"
+    },
+    "instruments": {
+      "analyzer_elements": {
+        "types": {
+          "analyzer_transmitter": {
+            "name": "Analyzer Transmitter",
+            "filename": "AnalyzerTransmitter.png",
+            "features": ["transmitter", "analyzer"]
+          },
+          "analyzer_transmitter_orp": {
+            "name": "ORP Analyzer Transmitter",
+            "filename": "AnalyzerTransmitter_ORP.png",
+            "features": ["transmitter", "analyzer", "orp"]
+          },
+          "analyzer_transmitter_ph": {
+            "name": "pH Analyzer Transmitter",
+            "filename": "AnalyzerTransmitter_pH.png",
+            "features": ["transmitter", "analyzer", "ph"]
+          }
+        }
+      },
+      "flow_elements": {
+        "types": {
+          "averaging_pitot": {
+            "name": "Averaging Pitot Tube",
+            "filename": "AveragingPitotTube.png",
+            "features": ["flow", "pitot"]
+          },
+          "coriolis": {
+            "name": "Coriolis Flowmeter",
+            "filename": "Coriolis.png",
+            "features": ["flow", "coriolis"]
+          },
+          "magnetic": {
+            "name": "Magnetic Flowmeter",
+            "filename": ["Magnetic1.png", "Magnetic2.png"],
+            "features": ["flow", "magnetic"]
+          },
+          "rotameter": {
+            "name": "Rotameter",
+            "filename": "Rotameter.png",
+            "features": ["flow", "rotameter"]
+          },
+          "sonic": {
+            "name": "Sonic Flowmeter",
+            "filename": ["Sonic1.png", "Sonic2.png"],
+            "features": ["flow", "sonic"]
+          },
+          "thermalmass": {
+            "name": "Thermal Mass Flowmeter",
+            "filename": ["Thermalmass1.png", "Thermalmass2.png"],
+            "features": ["flow", "thermal"]
+          },
+          "turbine": {
+            "name": "Turbine Flowmeter",
+            "filename": "Turbine.png",
+            "features": ["flow", "turbine"]
+          },
+          "ultrasonic": {
+            "name": "Ultrasonic Flowmeter",
+            "filename": "Ultrasonic.png",
+            "features": ["flow", "ultrasonic"]
+          },
+          "venturi": {
+            "name": "Venturi Flowmeter",
+            "filename": "Venturi.png",
+            "features": ["flow", "venturi"]
+          },
+          "vortex": {
+            "name": "Vortex Flowmeter",
+            "filename": "Vortex.png",
+            "features": ["flow", "vortex"]
+          }
+        }
+      },
+      "level_elements": {
+        "types": {
+          "level_indicator_transmitter_tank": {
+            "name": "Level Indicator Transmitter Tank",
+            "filename": ["LevelIndicatorTransmitter_Tank1.png", "LevelIndicatorTransmitter_Tank2.png", "LevelIndicatorTransmitter_Tank3.png"],
+            "features": ["level", "indicator", "transmitter", "tank"]
+          },
+          "level_switch": {
+            "name": "Level Switch",
+            "filename": ["LevelSwitch.png", "LevelSwitch1.png", "LevelSwitch2.png"],
+            "features": ["level", "switch"]
+          },
+          "level_transmitter_blind": {
+            "name": "Blind Level Transmitter",
+            "filename": "LevelTransmitter_Blind.png",
+            "features": ["level", "transmitter", "blind"]
+          },
+          "level_transmitter_indicator_remote": {
+            "name": "Remote Level Transmitter with Indicator",
+            "filename": ["LevelTransmitter_IndicatorRemote.png", "LevelTransmitter_IndicatorRemoteTank1.png", "LevelTransmitter_IndicatorRemoteTank2.png", "LevelTransmitter_IndicatorRemoteTank3.png"],
+            "features": ["level", "transmitter", "indicator", "remote"]
+          },
+          "level_transmitter_sump": {
+            "name": "Sump Level Transmitter",
+            "filename": "LevelTransmitter_Sump.png",
+            "features": ["level", "transmitter", "sump"]
+          },
+          "level_transmitter_tank": {
+            "name": "Tank Level Transmitter",
+            "filename": ["LevelTransmitter_Tank1.png", "LevelTransmitter_Tank2.png"],
+            "features": ["level", "transmitter", "tank"]
+          }
+        }
+      },
+      "pressure_elements": {
+        "types": {
+          "manometer_seal": {
+            "name": "Manometer with Seal",
+            "filename": "ManometerSeal_Valveball.png",
+            "features": ["pressure", "manometer", "seal"]
+          },
+          "manometer": {
+            "name": "Manometer",
+            "filename": "Manometer_Valveball.png",
+            "features": ["pressure", "manometer"]
+          },
+          "pressure_transmitter_seal": {
+            "name": "Pressure Transmitter with Seal",
+            "filename": "PressureTransmitterSeal_Valveball.png",
+            "features": ["pressure", "transmitter", "seal"]
+          },
+          "pressure_transmitter": {
+            "name": "Pressure Transmitter",
+            "filename": "PressureTransmitter_Valveball.png",
+            "features": ["pressure", "transmitter"]
+          }
+        }
+      },
+      "speed_elements": {
+        "types": {
+          "speed_sensor": {
+            "name": "Speed Sensor",
+            "filename": "SpeedSensor.png",
+            "features": ["speed", "sensor"]
+          }
+        }
+      },
+      "temperature_elements": {
+        "types": {
+          "temperature_transmitter": {
+            "name": "Temperature Transmitter",
+            "filename": "TemperatureTransmitter.png",
+            "features": ["temperature", "transmitter"]
+          }
+        }
+      },
+      "vibration_elements": {
+        "types": {
+          "vibration_transmitter": {
+            "name": "Vibration Transmitter",
+            "filename": "VibrationTransmitter.png",
+            "features": ["vibration", "transmitter"]
+          }
+        }
+      }
+    }
+  }

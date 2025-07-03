@@ -1,0 +1,59 @@
+{
+    "metadata": {
+      "base_path": "./SymbolLibrary/TagPatterns",
+      "version": "1.0",
+      "last_updated": "2024-02-17"
+    },
+    "tagPatterns": {
+      "types": {
+        "controller": {
+          "name": "Controller Tag",
+          "filename": "Controller.png",
+          "pattern": "square",
+          "format": "FFF-XXXX"
+        },
+        "function": {
+          "name": "Function Tag",
+          "filename": "Function.png",
+          "pattern": "hexagon",
+          "format": "FFF-XXXX"
+        },
+        "instrument": {
+          "name": "Instrument Tag",
+          "filename": "instrument.png",
+          "pattern": "circle",
+          "format": "FFF-XXXX"
+        },
+        "instrument_patterns": {
+          "name": "Instrument Pattern",
+          "filename": "instrument_patterns.png",
+          "pattern": "code",
+          "format": "{}"
+        },
+        "interlock_hardware": {
+          "name": "Hardware Interlock Tag",
+          "filename": "Interlock_Hardwired.png",
+          "pattern": "diamond",
+          "format": "I-XXX"
+        },
+        "interlock_soft": {
+          "name": "Software Interlock Tag",
+          "filename": "Interlock_Soft.png",
+          "pattern": "diamond",
+          "format": "I-XXX"
+        },
+        "tag_patterns": {
+          "name": "Tag Pattern",
+          "filename": "tag_patterns.png",
+          "pattern": "code",
+          "format": "{}"
+        },
+        "valve_patterns": {
+          "name": "Valve Pattern",
+          "filename": "valve_patterns.png",
+          "pattern": "code",
+          "format": "{}"
+        }
+      }
+    }
+  }

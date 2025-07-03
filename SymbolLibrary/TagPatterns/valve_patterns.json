@@ -1,0 +1,106 @@
+{
+    "metadata": {
+    "base_path": "C:/Users/luisq/Documents/Beta/pid-analyzer/pid-analyzer/SymbolLibrary/Valves",
+    "version": "1.0",
+    "last_updated": "2024-02-17"
+  },
+    "valves": {
+      "control": {
+        "types": {
+          "ball": {
+            "name": "Ball Valve with Cylinder Control",
+            "filename": "BallValve_CylinderControl.png",
+            "features": ["cylinder_actuator", "ball_symbol"]
+          },
+          "butterfly": {
+            "name": "Butterfly Valve with Cylinder Control",
+            "filename": ["ButterflyValve_CylinderControl.png", "ButterflyValve_CylinderControl1.png"],
+            "features": ["cylinder_actuator", "butterfly_symbol"]
+          },
+          "globe": {
+            "name": "Globe Valve with Cylinder Control",
+            "filename": "GlobelValve_CylinderControl.png",
+            "features": ["cylinder_actuator", "globe_symbol"]
+          },
+          "pinch": {
+            "name": "Pinch Valve with Cylinder Control",
+            "filename": "PinchValve_CylinderControl.png",
+            "features": ["cylinder_actuator", "pinch_symbol"]
+          }
+        }
+      },
+      "mechanical": {
+        "types": {
+          "ball": {
+            "name": "Mechanical Ball Valve",
+            "filename": "BallValve_Mechanic.png",
+            "features": ["manual_operator", "ball_symbol"]
+          },
+          "butterfly": {
+            "name": "Mechanical Butterfly Valve",
+            "filename": ["ButterflyValve_Mechanical.png", "ButterflyValve_Mechanical1.png"],
+            "features": ["manual_operator", "butterfly_symbol"]
+          },
+          "check": {
+            "name": "Mechanical Check Valve",
+            "filename": "CheckValve_Mechanical.png",
+            "features": ["manual_operator", "check_symbol"]
+          },
+          "gate": {
+            "name": "Mechanical Gate Valve",
+            "filename": "GateValve_Mechanic.png",
+            "features": ["manual_operator", "gate_symbol"]
+          },
+          "globe": {
+            "name": "Mechanical Globe Valve",
+            "filename": "GlobeValve_Mechanic.png",
+            "features": ["manual_operator", "globe_symbol"]
+          },
+          "knife": {
+            "name": "Mechanical Knife Valve",
+            "filename": "KnifeValve_Mechanic.png",
+            "features": ["manual_operator", "knife_symbol"]
+          },
+          "pinch": {
+            "name": "Mechanical Pinch Valve",
+            "filename": "PinchValve_Mechanic.png",
+            "features": ["manual_operator", "pinch_symbol"]
+          }
+        }
+      },
+      "onoff": {
+        "types": {
+          "ball": {
+            "name": "Ball Valve with On/Off Actuator",
+            "filename": "BallValve_CylinderOnOff.png",
+            "features": ["onoff_actuator", "ball_symbol"]
+          },
+          "butterfly": {
+            "name": "Butterfly Valve with On/Off Actuator",
+            "filename": ["ButterflyValve_CylinderOnOff.png", "ButterflyValve_CylinderOnOff1.png"],
+            "features": ["onoff_actuator", "butterfly_symbol"]
+          },
+          "check": {
+            "name": "Check Valve with On/Off Actuator",
+            "filename": "CheckValve_CylinderOnOff.png",
+            "features": ["onoff_actuator", "check_symbol"]
+          },
+          "gate": {
+            "name": "Gate Valve with On/Off Actuator",
+            "filename": "GateValve_OnOff.png",
+            "features": ["onoff_actuator", "gate_symbol"]
+          },
+          "gate_solenoid": {
+            "name": "Gate Valve with Solenoid On/Off",
+            "filename": "GateValve_SolenoidOnOff.png",
+            "features": ["solenoid_actuator", "gate_symbol"]
+          },
+          "knife": {
+            "name": "Knife Valve with On/Off Actuator",
+            "filename": "KnifeValve_OnOff.png",
+            "features": ["onoff_actuator", "knife_symbol"]
+          }
+        }
+      }
+    }
+  }
